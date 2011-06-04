@@ -1,0 +1,51 @@
+<style type="text/css">
+    .small-header {
+        margin-bottom: 25px;
+        padding-left: 5px;
+        padding-bottom: 2px;
+        border-bottom: 1px dotted #ccc;
+    }
+</style>
+<h3 class="small-header"><__trans phrase="Settings for menus"></h3>
+    <mtapp:setting
+        id="show_dashboard"
+        label="<__trans phrase="Show dashboard">">
+    <ul>
+        <li><label><input type="checkbox"<mt:if name="show_dashboard"> checked="checked"</mt:if> name="show_dashboard" id="show_dashboard" /> <__trans phrase="Show"></label></li>
+    </ul>
+    </mtapp:setting>
+    <mtapp:setting
+        id="show_list_website"
+        label="<__trans phrase="Show list websites">">
+    <ul>
+        <li><label><input type="checkbox"<mt:if name="show_list_website"> checked="checked"</mt:if> name="show_list_website" id="show_list_website" /> <__trans phrase="Show"></label></li>
+    </ul>
+    </mtapp:setting>
+    <mtapp:setting
+        id="show_list_user"
+        label="<__trans phrase="Show list users">">
+    <ul>
+        <li><label><input type="checkbox"<mt:if name="show_list_website"> checked="checked"</mt:if> name="show_list_website" id="show_list_website" /> <__trans phrase="Show"></label></li>
+    </ul>
+    </mtapp:setting>
+    <mtapp:setting
+        id="show_list_templates"
+        label="<__trans phrase="Show list templates">">
+    <ul>
+        <li><label><input type="checkbox"<mt:if name="show_list_templates"> checked="checked"</mt:if> name="show_list_templates" id="show_list_templates" /> <__trans phrase="Show"></label></li>
+    </ul>
+    </mtapp:setting>
+    <mtapp:setting
+        id="show_cfg_plugins"
+        label="<__trans phrase="Show config plugins">">
+    <ul>
+        <li><label><input type="checkbox"<mt:if name="show_cfg_plugins"> checked="checked"</mt:if> name="show_cfg_plugins" id="show_cfg_plugins" /> <__trans phrase="Show"></label></li>
+    </ul>
+    </mtapp:setting>
+    <mtapp:setting
+        id="show_view_log"
+        label="<__trans phrase="Show view log">">
+    <ul>
+        <li><label><input type="checkbox"<mt:if name="show_view_log"> checked="checked"</mt:if> name="show_view_log" id="show_view_log" /> <__trans phrase="Show"></label></li>
+    </ul>
+    </mtapp:setting>
